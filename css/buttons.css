@@ -1,0 +1,36 @@
+/* css for the buttons */
+
+/* deprecated for now
+.buttonbutnotidk {
+	background-color: #1364FF;
+	color: #fff!important;
+	padding: 14px 16px;
+	border-radius: 10px;
+	font-size: 40px;
+}
+*/
+
+.button { /* best variable name */
+	font-size: 45px;
+	color: #fff;
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.reddit:hover {
+	color: #FF4500;
+}
+.twitter:hover {
+	color: #1DA1F2;
+}
+.spotify:hover {
+	color: #1DB954;
+}
+.github:hover {
+	color: #000;
+}
+.steam:hover {
+	color: #00adee;
+}

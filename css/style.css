@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@font-face {
+	font-family: arvo;
+	src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2')
+}
+
+body {
+	background-color:  #1f1f1f;
+	color: #fff;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.topbar {
+	color: #fff !important;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.topbar a {
+	padding: 14px 16px;
+	text-align: center;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+}
+
+.topbar a:hover {
+	background-color: #1364FF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.subheading {
+	background-color: #1364FF;
+	color: #fff!important;
+	padding: 14px 16px;
+	border-radius: 15px;
+}
+
+a {
+	text-decoration: none!important;
+	color: #fff;
+}
+
+h1 {
+	font-size: 60px;
+	font-family: open sans, sans-serif;
+}
+
+h2 {
+	font-size: 35px;
+	font-family: open sans, sans-serif;
+}
+
+p {
+	color: #000!important;
+	font-size: 30px;
+}
+
+.footer {
+	background-color: #1364FF;
+	color: #fff!important;
+	padding: 14px 16px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+code {
+	background-color: #000;
+	color: rgb(55, 255, 55)!important;
+	padding: 14px 16px;
+	line-height: 2;
+}
+
+.left {
+	text-align: right;
+	vertical-align: top;
+}
+
+.container {
+	background-color: #f4f6f7;
+	color: #000;
+	border-radius: 15px;
+	padding: 15px 14px;
+}
+
+.highlight {
+	margin-left: 20px;
+}
+span {
+	color: white!important;
+	overflow: hidden!important;
+}
+
+.about {
+	padding: 14px 16px;
+}
+.hyperlink {
+	color: #1364FF;
+}
